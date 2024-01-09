@@ -186,7 +186,6 @@ class _SwipeTutorialState extends State<SwipeTutorial>
   Widget _getTextWidget() {
     return Text(
       widget.text,
-      textScaleFactor: 1.0,
       style: widget.textStyle,
       textAlign: TextAlign.center,
     );
