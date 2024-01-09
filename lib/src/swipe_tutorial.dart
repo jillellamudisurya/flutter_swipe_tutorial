@@ -218,28 +218,26 @@ class _SwipeTutorialState extends State<SwipeTutorial>
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Stack(
-        children: [
-          widget.child,
-          if (widget.showTutorial) ...[
-            IgnorePointer(
-              ignoring: true,
-              child: Container(
-                width: double.infinity,
-                padding: widget.padding,
-                decoration: BoxDecoration(
-                  color: widget.backgroundColor.withOpacity(0.6),
-                ),
-                child: Align(
-                  alignment: widget.tutorialWidgetAlignment,
-                  child: _getInnerChild(),
-                ),
+    return Stack(
+      children: [
+        widget.child,
+        if (widget.showTutorial) ...[
+          IgnorePointer(
+            ignoring: true,
+            child: Container(
+              width: double.infinity,
+              padding: widget.padding,
+              decoration: BoxDecoration(
+                color: widget.backgroundColor.withOpacity(0.6),
               ),
-            )
-          ]
-        ],
-      ),
+              child: Align(
+                alignment: widget.tutorialWidgetAlignment,
+                child: _getInnerChild(),
+              ),
+            ),
+          )
+        ]
+      ],
     );
   }
 }
