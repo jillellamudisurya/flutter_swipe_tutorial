@@ -1,6 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swipe_tutorial/flutter_swipe_tutorial.dart';
 
+/// A widget that provides an interactive swipe tutorial.
+///
+/// This widget wraps around any given [child] widget and displays a swipe
+/// tutorial overlay, guiding users on how to interact with the [child] widget.
+/// It supports customizing the direction of the swipe, appearance, and behavior
+/// of the tutorial overlay.
+///
+/// The tutorial consists of an icon indicating the swipe direction and a text
+/// instruction, both of which can be customized.
+///
+/// /// Usage example:
+/// ```dart
+/// SwipeTutorial(
+///   child: MyWidget(),
+///   text: 'Swipe left to see more',
+///   swipeDirection: SwipeDirection.rightToLeft,
+///   backgroundColor: Colors.black,
+/// )
+/// ```
 class SwipeTutorial extends StatefulWidget {
   final Widget child;
   final String text;
