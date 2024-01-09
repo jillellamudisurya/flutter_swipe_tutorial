@@ -2,10 +2,10 @@
 This is used to create a swipe tutorial for your flutter app easily.
 
 <p float="left">
-  <img src="assets/left_to_right.gif" width="200" />
-  <img src="assets/right_to_left.gif" width="200" /> 
-  <img src="assets/top_to_bottom.gif" width="200" />
-  <img src="assets/bottom_to_top.gif" width="200" />
+  <img src="https://raw.githubusercontent.com/jillellamudisurya/flutter_swipe_tutorial/master/assets/left_to_right.gif" width="200" />
+  <img src="https://raw.githubusercontent.com/jillellamudisurya/flutter_swipe_tutorial/master/assets/right_to_left.gif" width="200" /> 
+  <img src="https://raw.githubusercontent.com/jillellamudisurya/flutter_swipe_tutorial/master/assets/top_to_bottom.gif" width="200" />
+  <img src="https://raw.githubusercontent.com/jillellamudisurya/flutter_swipe_tutorial/master/assets/bottom_to_top.gif" width="200" />
 </p>
 
 ## Usage
