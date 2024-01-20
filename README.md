@@ -8,6 +8,13 @@ This is used to create a swipe tutorial for your flutter app easily.
   <img src="https://raw.githubusercontent.com/jillellamudisurya/flutter_swipe_tutorial/master/assets/bottom_to_top.gif" width="200" />
 </p>
 
+<p>
+     <a href="https://pub.dev/packages/flutter_swipe_tutorial"><img src="https://img.shields.io/badge/pub-v1.0.4-blue" /></a>
+</p>
+
+## Installation
+`$ flutter pub add flutter_swipe_tutorial`
+
 ## Usage
 Wrap You Widget With Swipe Tutorial to get the swipe tutorial effect.
 ```dart
