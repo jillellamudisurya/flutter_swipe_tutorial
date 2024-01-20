@@ -1,6 +1,6 @@
 name: flutter_swipe_tutorial
 description: A customizable and easy-to-use Flutter package for creating swipe-based tutorials.
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/jillellamudisurya/flutter_swipe_tutorial
 
 environment:
