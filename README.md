@@ -9,7 +9,7 @@ This is used to create a swipe tutorial for your flutter app easily.
 </p>
 
 <p>
-     <a href="https://pub.dev/packages/flutter_swipe_tutorial" target="_blank"><img src="https://img.shields.io/badge/pub-v1.0.4-blue" /></a>
+     <a href="https://pub.dev/packages/flutter_swipe_tutorial" target="_blank"><img src="https://img.shields.io/badge/pub-v1.1.1-blue" /></a>
 </p>
 
 ## Installation
