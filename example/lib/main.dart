@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swipe_tutorial/flutter_swipe_tutorial.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -11,23 +12,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home: const SwipeTutorialExample());
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const SwipeTutorialExample(),
+    );
   }
 }
 
-class SwipeTutorialExample extends StatefulWidget {
+class SwipeTutorialExample extends StatelessWidget {
   const SwipeTutorialExample({super.key});
 
-  @override
-  State<SwipeTutorialExample> createState() => _SwipeTutorialExampleState();
-}
-
-class _SwipeTutorialExampleState extends State<SwipeTutorialExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,8 +73,7 @@ class _CustomCarouselState extends State<CustomCarousel> {
   @override
   Widget build(BuildContext context) {
     return PageView.builder(
-      scrollDirection:
-          Axis.vertical, // Uncomment this line to enable vertical scroll
+      scrollDirection: Axis.vertical,
       controller: _pageController,
       padEnds: false,
       itemCount: 10,
