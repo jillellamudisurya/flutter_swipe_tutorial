@@ -17,3 +17,4 @@
 ## 1.1.1
 
 * Removed Deprecated Code
+* Added Support for Flutter 3.27.0
