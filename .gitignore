@@ -30,3 +30,4 @@ migrate_working_dir/
 build/
 
 UPDATE_PROCESS.md
+.fvm

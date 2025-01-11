@@ -94,11 +94,6 @@ class _SwipeTutorialState extends State<SwipeTutorial>
           CurvedAnimation(
               parent: _animationController, curve: Curves.easeInOutQuart),
         );
-      default:
-        return Tween<double>(begin: 1.0, end: -1.0).animate(
-          CurvedAnimation(
-              parent: _animationController, curve: Curves.easeInOutQuart),
-        );
     }
   }
 
@@ -246,7 +241,7 @@ class _SwipeTutorialState extends State<SwipeTutorial>
               width: double.infinity,
               padding: widget.padding,
               decoration: BoxDecoration(
-                color: widget.backgroundColor.withOpacity(0.6),
+                color: widget.backgroundColor.withValues(alpha: 0.6 * 255),
               ),
               child: Align(
                 alignment: widget.tutorialWidgetAlignment,
