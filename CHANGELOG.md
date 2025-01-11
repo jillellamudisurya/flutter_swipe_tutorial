@@ -13,3 +13,7 @@
 
 * Removed Assets, as they are coming in the projects.
 * Added `Installation` in README.md
+
+## 1.1.1
+
+* Removed Deprecated Code
